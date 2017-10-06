@@ -1,0 +1,30 @@
+{
+  "name": "jest-preset-typescript",
+  "version": "1.0.0",
+  "main": "jest-preset-typescript.js",
+  "repository": "git@github.com:DSchau/jest-preset-typescript.git",
+  "author": "Dustin Schau <dustin.schau@gmail.com> (https://dustinschau.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node scripts/build && npm run copy",
+    "clean": "del-cli \"dist/**/*\"",
+    "copy": "cp .gitignore .npmignore dist",
+    "predeploy": "npm run build",
+    "deploy": "bump-version",
+    "install": "install-self-peers -- --ignore-scripts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@dschau/bump-version-ci": "~1.0.2",
+    "@team-griffin/install-self-peers": "~1.1.1",
+    "@types/jest": "~21.1.2",
+    "@types/node": "~8.0.32",
+    "del-cli": "~1.1.0"
+  },
+  "peerDependencies": {
+    "jest": ">=21.0.0",
+    "ts-jest": ">=21.0.0",
+    "typescript": ">=2.5.0"
+  }
+}
