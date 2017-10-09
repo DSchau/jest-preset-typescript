@@ -1,6 +1,6 @@
 # jest-preset-typescript
 
-[![Build Status](https://travis-ci.org/DSchau/jest-preset-typescript.svg?branch=master)](https://travis-ci.org/DSchau/jest-preset-typescript)
+[![Build Status](https://travis-ci.org/DSchau/jest-preset-typescript.svg?branch=master)](https://travis-ci.org/DSchau/jest-preset-typescript) [![NPM Version](https://img.shields.io/npm/v/jest-preset-typescript.svg)](https://www.npmjs.com/package/jest-preset-typescript)
 
 A preset that can be used to quickly get up and running with jest + typescript.
 
