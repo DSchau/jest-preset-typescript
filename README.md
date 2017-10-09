@@ -7,8 +7,16 @@ A preset that can be used to quickly get up and running with jest + typescript.
 ## Install
 
 ```bash
-yarn add jest ts-jest typescript jest-preset-typescript
+yarn add jest ts-jest typescript jest-preset-typescript --dev
 ```
+
+or with `npm` if that's more your style 😎
+
+```bash
+npm install jest ts-jest typescript jest-preset-typescript --save-dev
+```
+
+*(note: if you already have the peer dependencies installed, you only need to install `jest-preset-typescript`!)*
 
 Then, once all dependencies are installed, simply create a `jest.config.js` in the root of your project with the following contents:
 
