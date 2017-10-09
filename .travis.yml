@@ -5,6 +5,10 @@ node_js:
 cache:
   yarn: true
 
+install:
+  - yarn global add install-self-peers
+  - yarn
+
 script: yarn test
 
 before_deploy:
