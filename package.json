@@ -12,7 +12,7 @@
     "copy": "cp .gitignore .npmignore dist",
     "predeploy": "npm run build",
     "deploy": "bump-version",
-    "install": "install-self-peers -- --ignore-scripts",
+    "prepare": "install-self-peers -- --ignore-scripts",
     "test": "jest"
   },
   "devDependencies": {
