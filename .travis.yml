@@ -6,7 +6,7 @@ cache:
   yarn: true
 
 install:
-  - yarn global add install-self-peers
+  - yarn global add @team-griffin/install-self-peers
   - yarn
 
 script: yarn test
