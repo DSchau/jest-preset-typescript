@@ -9,7 +9,7 @@
     "build": "tsc",
     "postbuild": "node scripts/build && npm run copy",
     "clean": "del-cli \"dist/**/*\"",
-    "copy": "cp .gitignore .npmignore dist",
+    "copy": "cp .gitignore .npmignore README.md dist",
     "predeploy": "npm run build",
     "deploy": "bump-version",
     "prepare": "install-self-peers -- --ignore-scripts",
