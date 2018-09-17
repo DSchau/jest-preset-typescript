@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "jest-preset-typescript.js",
   "repository": "git@github.com:DSchau/jest-preset-typescript.git",
   "author": "Dustin Schau <dustin.schau@gmail.com> (https://dustinschau.com)",
