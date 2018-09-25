@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-typescript",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "jest-preset-typescript.js",
   "repository": "git@github.com:DSchau/jest-preset-typescript.git",
   "author": "Dustin Schau <dustin.schau@gmail.com> (https://dustinschau.com)",
@@ -13,6 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "bump-version",
     "prepare": "install-self-peers -- --ignore-scripts",
+    "postprepare": "npm run build",
     "test": "jest"
   },
   "devDependencies": {
