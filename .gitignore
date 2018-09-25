@@ -1,4 +1,6 @@
 node_modules
 
 dist
-
+/jest-preset-typescript.js
+/jest-preset.json
+/__tests__
